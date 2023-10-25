@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css"
+import {Clock} from "./clock"
+import {Calculator} from "./temperature"
 
 // class Square
 // class Square extends React.Component {
@@ -189,5 +191,6 @@ function calculatorwinner(squares){
   //
   
   const root = ReactDOM.createRoot(document.getElementById("root"));
-  root.render(<Game />);
+  root.render(<Calculator />);
+  
   
