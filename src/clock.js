@@ -2,6 +2,9 @@
 import React from "react";
 // // import ReactDOM from "react-dom/client";
 
+
+// class 의 state는 constructor 제외 직접 수정 불가(this.state.{} x)
+
 class Clock extends React.Component{
 
     constructor(props){
